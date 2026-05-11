@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    padding:20px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:15px;
+}
+.box{
+    gap: 5px;
+    height:150px;
+    background:#4CAF50;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+}
